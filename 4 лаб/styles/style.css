@@ -1,0 +1,277 @@
+.content
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frame1_kartinka img
+{
+  
+  width: 100%;
+}
+
+.frame1
+{
+  width: 70%;
+  height: 820px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.frame2
+{
+  width: 70%;
+  height: 581px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.frame2_text
+{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  gap: 100px;
+  justify-content: space-between;
+  width: 100%;
+  height: 114px;
+  margin-bottom: 30px;
+}
+
+.frame2_left
+{
+  font-family: Outfit;
+  font-size: 38px;
+  width: 400px;
+}
+
+
+.frame2_right
+{
+  font-family: Be Vietnam Pro;
+  font-size: 16px;
+  line-height: 32px;
+  width: 400px;
+}
+
+.custom-hr {
+  width: 100%;
+  size: 1px;
+  color: #E8E7EE;
+}
+
+.frame2_bloki
+{
+ width: 100%;
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.blok
+{
+  height: 289px;
+  width: 327px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E8E7EE;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blok_text
+{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blok_verh
+{
+  font-family: Outfit;
+  font-size: 23px;
+}
+
+.blok_niz
+{
+  
+  margin-top: 10px;
+  font-family:Be Vietnam Pro; 
+  font-size: 16px;
+  width: 70%;
+  line-height: 24px;
+}
+
+.blok img
+{
+  margin-top: 40px;
+}
+
+.frame1_text
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  flex-direction: column;
+  width: 770px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.shapka
+{
+height: 90px;
+width: 100%;
+
+display: flex;
+align-items: center;
+}
+
+.shapka_derzh
+{
+  height: 42px;
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+}
+
+.shapka_knopka
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 42px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E8E7EE;
+}
+
+.shapka_knopka_2
+{
+  width: 300px;
+  position: absolute;
+  right:  0px;
+  display: flex;
+  align-items: center;
+
+}
+
+.shapka_bukv
+{
+  width: 454px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.poloska
+{
+  height: 56px;
+  width: 100%;
+  background-color: #2A514C;
+  background-image: url("../img/fon.png");
+}
+
+.frame2_poloska
+{
+  background: #F6F6F9;
+  width: 100%;
+  height: 56px;
+  font-family: Be Vietnam Pro;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+.frame2_poloska_txt
+{
+  margin: 0  auto;
+}
+
+.frame2_poloska_img
+{
+  margin-right: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+#fon
+{
+position: relative;
+width: 100%;
+top: 93px;
+}
+
+.frame3
+{
+  background-color: #2A514C;
+  height: 500px;
+  width: 90%;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  border-radius: 40px;
+}
+
+.frame3_top
+{
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.frame3_top div
+{
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 40px;
+}
+
+.table
+{
+  width: 100%;
+  height: 360px;
+  table-layout: fixed;
+  
+}
+
+.frame3_table
+{
+  display: flex;
+  align-items: center;
+}
+
+td
+{
+  padding-left: 50px;
+  color: #FFFFFF;
+}
+
+.text1
+{
+  font-family:Be Vietnam Pro; 
+  font-size: 13px;
+}
